@@ -7,7 +7,7 @@
 	export let variant: ButtonVariant = 'default';
 	export let size: ButtonSize = 'default';
 	export let disabled = false;
-	export let children: string;
+	// Removed children prop as <slot /> is used for rendering child content.
 
 	const variants = {
 		default: 'bg-primary text-primary-foreground hover:bg-primary/90',
