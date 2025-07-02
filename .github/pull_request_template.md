@@ -34,7 +34,7 @@ Brief description of changes and motivation.
 - [ ] PR title follows format: `<Type>: <Description>`
 
 ## Related Issues
-Closes #(issue number)
+Closes #<issue number>
 
 ## Screenshots (if applicable)
 <!-- Add screenshots for UI changes -->
