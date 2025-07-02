@@ -1,0 +1,30 @@
+# <type>(optional scope): <description>
+#
+# Examples:
+# feat(auth): add user login functionality
+# fix(button): resolve click event handler issue
+# docs(readme): update installation instructions
+# test(button): add comprehensive variant coverage
+# chore(deps): update dependencies
+#
+# Types:
+# feat:     New feature (MINOR version bump)
+# fix:      Bug fix (PATCH version bump)
+# docs:     Documentation changes
+# style:    Code style changes (formatting, etc.)
+# refactor: Code refactoring without behavior changes
+# test:     Adding or updating tests
+# chore:    Maintenance tasks, dependency updates
+# perf:     Performance improvements
+# ci:       CI/CD pipeline changes
+# build:    Build system or external dependency changes
+#
+# Breaking Changes: Add ! after type (MAJOR version bump)
+# Example: feat!: remove deprecated API endpoints
+#
+# Body (optional):
+# Explain what and why vs. how
+#
+# Footer (optional):
+# Closes #123
+# BREAKING CHANGE: description of breaking change
