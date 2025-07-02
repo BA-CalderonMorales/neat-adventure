@@ -34,6 +34,7 @@
 	)}
 	{disabled}
 	on:click
+	{...$$restProps}
 >
 	{children}
 </button>

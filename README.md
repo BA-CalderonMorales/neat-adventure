@@ -1,4 +1,4 @@
-# neat-adventure
+# Neat Adventure
 
 A modern SvelteKit project scaffold following Test-Driven Development principles and best practices.
 
