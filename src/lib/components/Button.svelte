@@ -36,5 +36,5 @@
 	on:click
 	{...$$restProps}
 >
-	{children}
+	<slot />
 </button>
