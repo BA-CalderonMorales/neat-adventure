@@ -461,6 +461,25 @@ const getMockPaymentRequest = (
 
 ## Collaboration & Process
 
+### Development Environment
+
+Development and verification is performed locally using **VS Code** as the primary development environment. All testing, building, and validation occurs through VS Code's integrated tools:
+
+- **Terminal Integration**: Use VS Code's integrated terminal for running npm scripts
+- **Task Runner**: Leverage VS Code tasks for automated workflows
+- **TypeScript Support**: Real-time type checking and error reporting
+- **Testing Integration**: Vitest integration for running and debugging tests
+- **Git Integration**: Built-in Git support for commits, branches, and PR management
+- **Development Server**: Live reload and hot module replacement monitoring
+
+**Required Verification Steps** (performed locally in VS Code before commits):
+1. `npm install` - Dependency installation
+2. `npm run check` - TypeScript validation
+3. `npm run test` - Full test suite execution
+4. `npm run build` - Production build verification
+
+All code must pass these verification steps locally before being committed and pushed.
+
 ### Commit & Pull Request Standards
 
 - **Commits**: Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format (`feat:`, `fix:`, `refactor:`, etc.).

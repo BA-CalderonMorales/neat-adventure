@@ -175,7 +175,7 @@ Brief description of changes and motivation.
 - [ ] New tests added for new functionality
 - [ ] Manual testing completed
 
-## Codex CI Results
+## VS Code Verification Results
 - [ ] `npm install` - ✅ Success
 - [ ] `npm run build` - ✅ Success  
 - [ ] `npm run check` - ✅ Success
@@ -193,6 +193,14 @@ Brief description of changes and motivation.
 - After merging to `develop`, auto-create PR from `develop` → `main`
 - Hotfixes can merge directly to `main` with immediate follow-up to `develop`
 
-## Continuous Integration
+## Development Environment
+
+All verification and testing is performed locally in VS Code using the integrated terminal and task runner. The development workflow leverages VS Code's built-in tools for:
+
+- Running npm scripts (`npm install`, `npm run build`, `npm run check`, `npm run test`)
+- TypeScript checking and error reporting
+- Integrated testing with Vitest
+- Live development server monitoring
+- Git integration for commits and PRs
 
 All dependencies must be installed with `npm ci` in CI jobs. The Super-Linter runs on every pull request via `.github/workflows/super-linter.yml`.
